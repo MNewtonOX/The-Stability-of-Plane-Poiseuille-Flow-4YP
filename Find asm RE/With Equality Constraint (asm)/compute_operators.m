@@ -30,10 +30,11 @@ end
 W = kron(eye(2*M+1),W);
 I = eye(size(W,1));
 
-% A1 = sparse(A1);
-% A2 = sparse(A2);
-% E = sparse(E);
-% W = sparse(W);
-% I = sparse(I);
+% Matrcies can be set to sparse if desired
+%A1 = sparse(A1);
+%A2 = sparse(A2);
+%E = sparse(E);
+%W = sparse(W);
+%I = sparse(I);
 
 end
